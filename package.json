@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "web-dev-server --node-resolve --open --watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,6 +42,12 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.195"
-  }
+    "@types/lodash": "^4.14.195",
+    "@web/dev-server": "^0.4.4"
+  },
+  "description": "У вас є компонент React, який використовує useRef та IntersectionObserver для визначення, коли користувач переглядає кінець вмісту. Ваше завдання полягає в наступному:",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Svitlana <wsv3ta@gmail.com>",
+  "license": "ISC"
 }
